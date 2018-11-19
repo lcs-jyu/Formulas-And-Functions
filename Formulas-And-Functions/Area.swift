@@ -21,7 +21,9 @@ import Foundation
  
  */
 func forSquareWith(sideLength s : Double) -> Double {
+// func NAME    arg label  parameter name: data type
     let result = pow(s, 2.0)
+//                   base  exponent 
     return result
 }
 
@@ -41,5 +43,17 @@ func forSquareWith(sideLength s : Double) -> Double {
 func forRectangleWith(length l : Double, width w : Double) -> Double {
     
     // Complete this function
-    return 0.0
+    let result = l * w
+    return result
+}
+func forPallelogramWith (base b: Double, height h : Double) -> Double {
+    
+    let result = b * h
+    return result
+    
+    let result = pow (x,y)
+    return result
+    
+    let result = Double.pi * r * r
+    return result
 }
