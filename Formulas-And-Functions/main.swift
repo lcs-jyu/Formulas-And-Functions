@@ -25,8 +25,10 @@ let y = 2.0
 let areaOfParallelogram = forPallelogramWith(base: x, height: y)
 print("Area is paralelogram is: \(areaOfParallelogram)")
 
-let areaOfSquare = forSquareWith(sideLength: 3)
-print("Area is Square is: \(areaOfSquare)")
-
+//Calculate the area of circle
 let areaOfCircle = forCircleWith(radius: 4)
 print("Area is Circle is: \(areaOfCircle)")
+
+//Calculate the area of a triangle
+let areaOfTriangle = forTriangleWith(base: 3, height: 5)
+print("Area is Triangle is: \(areaOfTriangle)")

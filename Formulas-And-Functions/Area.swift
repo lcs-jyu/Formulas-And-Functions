@@ -52,18 +52,17 @@ func forPallelogramWith(base b: Double, height h : Double) -> Double {
     return result
     
 }
-func areaOfSquare(sidelegth b:Double) ->Double{
-    
-    let result = pow (b,b)
-    return result
-}
 
 
 
-func areaOfCircle(radius r: Double) -> Double {
+func forCircleWith(radius r: Double) -> Double {
     
     let result = Double.pi * r * r
     return result
 }
 
-
+func forTriangleWith(base b: Double, height h: Double) -> Double{
+    
+    let result = 1/2 * b * h
+    return result
+}
