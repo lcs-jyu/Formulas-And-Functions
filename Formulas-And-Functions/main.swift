@@ -22,13 +22,11 @@ print(areaOfRectangle)
 //Calculate the area of a parallogram
 let x = 3.0
 let y = 2.0
-let areaOfParallelogram = forParallalogramWith(base: x, height: y)
-print("Area is paralelogram is: \(area OfParallelogram)")
+let areaOfParallelogram = forPallelogramWith(base: x, height: y)
+print("Area is paralelogram is: \(areaOfParallelogram)")
 
 let areaOfSquare = forSquareWith(sideLength: 3)
-print("Area is Square is: \(area ofSquare)")
+print("Area is Square is: \(areaOfSquare)")
 
-let areaOfCircle = forCircleWi(radius: 4)
-print("Area is Circle is: \(area ofCircle)")
-
-let a
+let areaOfCircle = forCircleWith(radius: 4)
+print("Area is Circle is: \(areaOfCircle)")

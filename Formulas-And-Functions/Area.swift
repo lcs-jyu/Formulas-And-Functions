@@ -46,14 +46,24 @@ func forRectangleWith(length l : Double, width w : Double) -> Double {
     let result = l * w
     return result
 }
-func forPallelogramWith (base b: Double, height h : Double) -> Double {
+func forPallelogramWith(base b: Double, height h : Double) -> Double {
     
     let result = b * h
     return result
     
-    let result = pow (x,y)
+}
+func areaOfSquare(sidelegth b:Double) ->Double{
+    
+    let result = pow (b,b)
     return result
+}
+
+
+
+func areaOfCircle(radius r: Double) -> Double {
     
     let result = Double.pi * r * r
     return result
 }
+
+
